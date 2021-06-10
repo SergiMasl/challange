@@ -29,5 +29,3 @@ list[53].after(list[51]);
 list[53].after(newLi);
 newLi.textContent = "Глава 8: За пределами ES6";
 console.log(newLi);
-
-// book.insertAdjacentHTML("beforeend", "<li>Глава 8: За пределами ES6</li>");
