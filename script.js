@@ -4,6 +4,7 @@ const collection = document.querySelector(".books");
 const textHead = document.querySelectorAll("a");
 const list = document.querySelectorAll("li");
 let newLi = document.createElement("li");
+element = document.querySelector("body");
 
 console.log(list);
 console.log(newLi);
@@ -12,18 +13,7 @@ book[0].after(book[4]);
 book[4].after(book[3]);
 book[3].after(book[5]);
 
-// function changeBGImage() {
-//   document.body.background = "/image/you-dont-know-js.jpg";
-// }
-// changeBGImage();
-
-element = document.querySelector("body");
 element.style.backgroundImage = 'url("./image/you-dont-know-js.jpg")';
-
-// elements = document.querySelectorAll("div");
-// for(let element of elements){
-//   element.style.background =  "url('https://cdn.xgqfrms.xyz/logo/logo.png')";
-// }
 
 textHead[4].textContent = "Книга 3. This и Прототипы Объектов";
 
